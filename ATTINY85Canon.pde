@@ -1,3 +1,22 @@
+/**********************************************
+ * Arduino Code controlling the events created by button presses and generating IR blasts
+ *    for use with Canon Cameras on an Arduino Compatible ATTINY85
+ *
+ * Author: Morgan Aasdam
+ * Contact: http://morgan.hk
+ * Creation date: 2012-03-10
+ * Platform/Language: Arduino 1.0 / ATTiny85
+ * License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
+ * License info: http://creativecommons.org/licenses/by-nc-sa/3.0/
+ * 
+ * External Libraries:
+ *    - multiCameraIrControl (by Sebastian Setz)
+ *      	http://sebastian.setz.name/arduino/my-libraries/multi-camera-ir-control/
+ *          Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
+ *
+ ***********************************************/
+
+
 #include <multiCameraIrControl.h>
 #include <util/delay.h>
 #define F_CPU 20000000UL 
